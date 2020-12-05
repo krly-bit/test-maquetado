@@ -2,10 +2,181 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Test de maquetado</title>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+	integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	crossorigin="anonymous"></script>
 </head>
 <body>
+		<header>
+		<nav class="header-nav">
+			<ul class="first-menu">
+				<li class="mobile-menu" id="mobile-icon"> <a href=#> <img src="assets/iconos/bars-solid.svg" width=100%;> </a></li>
+				<li class="logo-item__first-menu"> <a href="index.html"> <img src="assets/logo.svg" width="100%"></a></li>
+				<li class="icon-item__first-menu">  <img src="assets/iconos/search-solid.svg" alt="svg" width="100%"> </li>
+				<li class="icon-item__first-menu"> <a  href="#"> <img src="assets/iconos/user-solid.svg" alt="svg" width="100%"> </a> </li>
+				<li class="icon-item__first-menu cart"> <a  href="#"> <img src="assets/iconos/shopping-cart-solid.svg" alt="svg" width="100%"> </a></li>
+			 </ul>
+			 <ul class="second-menu">
+				 <li class="section-item"> <a href=#> SALE </a> </li>
+				 <li class="section-item"> <a href=#> E-SHOP </a> </li>
+				 <li class="section-item"> <a href=#> LOOKBOOK </a> </li>
+				 <li class="section-item"> <a href=#> CAMPAÑA </a> </li>
+				 <li class="section-item"> <a href=#> LOCALES </a> </li>
+			 </ul>
+
+		</nav>
+		<nav>
+		<div class="dropdown-menu" id="dropdown-list">
+			<ul>
+			
+				<li> <a class="item__mobile-menu" href="#"> SALE</a> </li>
+				<li> <a class="item__mobile-menu" href="#"> E-SHOP </a> </li>
+				<li> <a class="item__mobile-menu" href="#"> LOOKBOOK </a> </li>
+				<li> <a class="item__mobile-menu" href="#"> CAMPAÑA </a> </li>
+				<li> <a class="item__mobile-menu" href="#"> LOCALES </a> </li>
+			
+			  </ul>
+			</div>
+			</nav>
+		
+	</header> 
+	<aside>
+		<h3 class= "title-product__filter"> Zapatillas </h3>
+		<h4 class="filter-h4"> Filtrar</h4>
+		<div class="filters">
+			<ul class="filter">
+				<li class="filter-title"> Categorías </li>
+				<li class="filter-item"> Zapatillas </li>
+				<li class="filter-item"> Zapatos </li>
+				<li class="filter-item"> Botas </li>
+				<li class="filter-item"> Sandalias </li>
+				<li class="filter-item"> Pantuflas </li>
+			</ul>
+
+			<ul class="filter">
+				<li class="filter-title"> Talle </li>
+				<li class="filter-item"> 36 </li>
+				<li class="filter-item"> 38 </li>
+				<li class="filter-item"> 40 </li>
+				<li class="filter-item"> 42 </li>
+				<li class="filter-item"> 44 </li>
+			</ul>
+
+			<ul class="filter">
+				<li class="filter-title">  Color</li>
+				<li class="filter-item"> Amarillo </li>
+				<li class="filter-item"> Negro</li>
+				<li class="filter-item"> Verde</li>
+				<li class="filter-item"> Azul</li>
+				<li class="filter-item"> Blanco</li>
+			</ul>		
+      
+		</div>
+
+	</aside>
+	<main>
+		<section class="products-showcase">
+		
+			<div class="product-info-box">
+				<div class="product-image product-a__image" id="product-1">  </div>
+				<div class="product-name" >  Zapatilla 1-XFK </div>
+				<div class="product-price"> 5000 </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-b__image" id="product-2" >  </div>
+				<div class="product-name">  Zapatilla 2000-X </div>
+				<div class="product-price"> 9800 </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-c__image" id="product-3">  </div>
+				<div class="product-name"> Zapatilla 3 Run </div>
+				<div class="product-price"> 6500 </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-c__image" id="product-4">  </div>
+				<div class="product-name">  Zapatilla 3 Run</div>
+				<div class="product-price"> 6500 </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-a__image" id="product-5">  </div>
+				<div class="product-name"> Zapatilla 1-XFK  </div>
+				<div class="product-price"> 5000 </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-b__image" id="product-6">  </div>
+				<div class="product-name"> Zapatilla 2000-X  </div>
+				<div class="product-price"> 9800 </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-a__image" id="product-7">  </div>
+				<div class="product-name"> Zapatilla 1-XFK </div>
+				<div class="product-price"> 5000  </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-b__image" id="product-8">  </div>
+				<div class="product-name"> Zapatilla 2000-X  </div>
+				<div class="product-price">9800</div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-c__image" id="product-9">  </div>
+				<div class="product-name"> Zapatilla 2000-X  </div>
+				<div class="product-price"> 9800 </div>
+			</div>
+
+			<div class="product-info-box">
+				<div class="product-image product-b__image" id="product-7">  </div>
+				<div class="product-name"> Zapatilla 2000-X </div>
+				<div class="product-price"> 9800  </div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-c__image" id="product-8">  </div>
+				<div class="product-name"> Zapatilla 3 Run </div>
+				<div class="product-price">6500</div>
+			</div>
+			<div class="product-info-box">
+				<div class="product-image product-a__image" id="product-9">  </div>
+				<div class="product-name"> Zapatilla 1-XFK</div>
+				<div class="product-price"> 5000 </div>
+			</div>
+
+
+
+
+
+
+		
+		
+		</section>
+
+	
+	
+
+	</main>
+	
+	<footer>
+		<nav>
+			<ul class="footer-menu">
+				<li class="footer-menu__item"> Ayuda </li>
+				<li class="footer-menu__item"> Contacto</li>
+				<li class="footer-menu__item"> Términos y condiciones</li>
+				<li class="footer-menu__item"> Política de privacidad</li>
+				
+			</ul>
+		</nav>
+		<script>
+			$(document).ready(function(){
+			  $("#mobile-icon").click(function(){
+				$("#dropdown-list").toggle();
+			  });
+			});
+			</script>
+	</footer>
 
 </body>
 </html>
